@@ -8,7 +8,7 @@ pipeline {
        stage('Clone Repository') {
            steps {
                // Clone the repository
-               git branch: 'master', url: 'https://github.com/rajan-shukla/django-notes-app'
+               git branch: 'main', url: 'https://github.com/rajan-shukla/django-notes-app'
            }
        }
        stage('Build Docker Image') {
